@@ -114,11 +114,11 @@ html { /* bSID-DEV_240314: This file is ugly. Too bad! // bSID-DEV_240315: Unfuc
   --Flashcord-Animation_XTSlow: calc(var(--Flashcord-Animation_Multiplier, 1) * 2s);
   --Flashcord-Animation_XTXSlow: calc(var(--Flashcord-Animation_Multiplier, 1) * 4s);
 
-  --Flashcord-Transition_XFast: calc(var(--Flashcord-Transition_Multiplier, 1) * 62.5ms);
-  --Flashcord-Transition_Fast: calc(var(--Flashcord-Transition_Multiplier, 1) * 125ms);
-  --Flashcord-Transition_Normal: calc(var(--Flashcord-Transition_Multiplier, 1) * 250ms);
-  --Flashcord-Transition_Slow: calc(var(--Flashcord-Transition_Multiplier, 1) * 500ms);
-  --Flashcord-Transition_XSlow: calc(var(--Flashcord-Transition_Multiplier, 1) * 1s);
+  --Flashcord-Transition_XFast: calc(var(--Flashcord-Transition_Multiplier, 1) * 62.5ms) ease;
+  --Flashcord-Transition_Fast: calc(var(--Flashcord-Transition_Multiplier, 1) * 125ms) ease;
+  --Flashcord-Transition_Normal: calc(var(--Flashcord-Transition_Multiplier, 1) * 250ms) ease;
+  --Flashcord-Transition_Slow: calc(var(--Flashcord-Transition_Multiplier, 1) * 500ms) ease;
+  --Flashcord-Transition_XSlow: calc(var(--Flashcord-Transition_Multiplier, 1) * 1s) ease;
 
   --Flashcord-Blur_Heavy: calc(var(--Flashcord-Blur_Multiplier, 1) * 16px);
   --Flashcord-Blur_Normal: calc(var(--Flashcord-Blur_Multiplier, 1) * 8px);

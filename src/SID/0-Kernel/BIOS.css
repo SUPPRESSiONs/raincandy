@@ -18,11 +18,11 @@ Kernel/BIOS Handles fonts, variables and idle optimizations.*/
   --font-display: var(--Flashcord-Font);
   --font-headline: var(--Flashcord-Font);
     
-  --FlashCore-Branch: "Flashcord Beta";
-  --FlashCore-Channel: "bSID";
-  --FlashCore-Version: "240423";
+  --FlashCore-Branch: "RainCandy";
+  --FlashCore-Channel: "BSOD";
+  --FlashCore-Version: "1";
   
-  --FlashCore-Splash_Text: "Happy 17th Birthday! \A ...To myself. yay.";
+  --FlashCore-Splash_Text: "refined hell";
   --FlashCore-Splash_Scale: 1.0;
   --FlashCore-Splash_X: 0px;
   --FlashCore-Splash_Y: 0px;

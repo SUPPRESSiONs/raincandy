@@ -29,12 +29,15 @@
 } @container FCM-Member-Slide (min-width: 0) {
   [class^="membersWrap_"] { height: 100%; }
   [class^="container_"]:has([class^="membersWrap_"]) {
-      position: relative; z-index: 1;
-      margin-left: -190px; translate: 190px;
+      position: relative; 
+      z-index: 1;
+      margin-left: -190px; 
+      translate: 190px;
 
-      --Initial: 250px; --Final: 190px;
-      animation: SNDL-Translate_Custom var(--Flashcord-Animation_XSlow);
-      transition-property: translate; transition-duration: var(--Flashcord-Transition_Normal);
+      --Initial: 250px; 
+      --Final: 190px;
+      animation: SNDL-Translate_Custom var(--Flashcord-Animation_XSlow) ease;
+      transition-property: translate; transition-duration: var(--Flashcord-Transition_Normal) ease;
   }
   [class^="container_"]:has([class^="membersWrap_"]:hover) { translate: 0px; }
   [class^="member_"] { margin-left: 0px; }
